@@ -10,7 +10,9 @@ This repository contains a deep learning model developed using a neural network 
 - [Data Preprocessing](#data-preprocessing)
 - [Model Architecture](#model-architecture)
 - [Model Training and Evaluation](#model-training-and-evaluation)
+- [Model Optimization](#model-optimization)
 - [Usage](#usage)
+- [Code Files](#code-files)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
