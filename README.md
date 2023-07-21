@@ -38,14 +38,24 @@ The deep learning model architecture consists of a sequential neural network wit
 
 The model is compiled using the binary cross-entropy loss function, Adam optimizer, and accuracy metric. The training data is used to fit the model for a certain number of epochs, with the scaled features and target values. The model's performance is evaluated using the test data to calculate the loss and accuracy metrics.
 
+## Model Optimization
+
+To optimize the model performance, a separate code file, `AlphabetSoupCharity_Optimization.ipynb`, is provided. This code file includes the process of optimizing the model using the Keras Tuner. The Keras Tuner performs a hyperparameter search to find the best configuration for the neural network model. It searches over a defined search space of hyperparameters, such as the number of units in hidden layers and the learning rate for the optimizer, to improve the model's performance.
+
 ## Usage
 
 To use this deep learning model, follow these steps:
 1. Install the necessary dependencies mentioned in the project's requirements.txt file.
 2. Download the dataset from [charity_data.csv](https://static.bc-edx.com/data/dl-1-2/m21/lms/starter/charity_data.csv) and place it in the same directory as the project files.
-3. Run the preprocessing code to clean and preprocess the dataset.
-4. Run the model training and evaluation code to train the model and assess its performance.
-5. Use the trained model to make predictions on new, unseen data.
+3. Run the preprocessing code (Deep_Learning_Challenge.ipynb) to clean and preprocess the dataset.
+4. Run the model training and evaluation code (Deep_Learning_Challenge.ipynb) to train the model and assess its performance.
+5. (Optional) Run the model optimization code (AlphabetSoupCharity_Optimization.ipynb) to optimize the model using the Keras Tuner.
+6. Use the trained model to make predictions on new, unseen data.
+
+## Code Files
+
+- `Deep_Learning_Challenge.ipynb`: Jupyter Notebook containing the code for data preprocessing, model training, and evaluation.
+- `AlphabetSoupCharity_Optimization.ipynb`: Jupyter Notebook containing the code for optimizing the model using the Keras Tuner.
 
 ## Contributing
 
